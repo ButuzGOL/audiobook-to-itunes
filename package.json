@@ -1,0 +1,31 @@
+{
+  "name": "audiobook-to-itunes",
+  "version": "0.0.1",
+  "description": "Convert audiobook to itunes based on filenames",
+  "license": "MIT",
+  "repository": "ButuzGOL/audiobook-to-itunes",
+  "author": {
+    "name": "ButuzGOL",
+    "email": "ButuzGOL@gmail.com",
+    "url": "https://butuzgol.github.io"
+  },
+  "engines": {
+    "node": ">=4.4.2"
+  },
+  "bin": {
+    "audiobook-to-itunes": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "itunes",
+    "audiobook",
+    "russian",
+    "filename",
+    "title"
+  ]
+}
