@@ -10,7 +10,7 @@
     "url": "https://butuzgol.github.io"
   },
   "engines": {
-    "node": ">=4.4.2"
+    "node": ">=4.2.0"
   },
   "bin": {
     "audiobook-to-itunes": "./index.js"
@@ -27,5 +27,9 @@
     "russian",
     "filename",
     "title"
-  ]
+  ],
+  "dependencies": {
+    "ffmetadata": "^1.4.0",
+    "node-dir": "^0.1.11"
+  }
 }

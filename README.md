@@ -9,7 +9,9 @@ $ npm install -g audiobook-to-itunes
 ## Usage
 
 ```sh
-$ audiobook-to-itunes folderpath
+$ brew install ffmpeg
+
+$ audiobook-to-itunes dirpath
 ```
 
 ## License
